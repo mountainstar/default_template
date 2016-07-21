@@ -1,0 +1,46 @@
+{
+  "name": "blackboard-starter-theme",
+  "version": "1.0.0",
+  "description": "Starter theme for blackboard sites",
+  "main": "gulpfile.js",
+  "scripts": {
+    "start": "gulp",
+    "build": "gulp build --production"
+  },
+  "engines": {
+    "node": "6.2.1"
+  },
+  "dependencies": {
+    "bower": "1.7.9"
+  },
+  "scripts": {
+    "postinstall": "./node_modules/bower/bin/bower install"
+  },
+  "author": "P.E. Butler III",
+  "license": "MIT",
+  "devDependencies": {
+    "browser-sync": "^2.10.0",
+    "gulp": "^3.9.0",
+    "gulp-autoprefixer": "^3.1.0",
+    "gulp-clean-css": "^2.0.10",
+    "gulp-concat": "^2.5.2",
+    "gulp-extname": "^0.2.0",
+    "gulp-if": "^2.0.0",
+    "gulp-imagemin": "^2.2.1",
+    "gulp-json-to-sass": "0.0.4",
+    "gulp-load-plugins": "^1.1.0",
+    "gulp-sass": "^2.1.0",
+    "gulp-sass-json": "^1.0.0",
+    "gulp-sourcemaps": "^1.6.0",
+    "gulp-uglify": "^1.2.0",
+    "gulp-uncss": "^1.0.1",
+    "rimraf": "^2.4.3",
+    "run-sequence": "^1.1.0",
+    "yargs": "^3.8.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/getblackboard/starter_theme"
+  },
+  "private": true
+}
